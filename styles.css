@@ -1,0 +1,172 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #2980B9, #6DD5FA);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.cta-button {
+    background-color: #27AE60;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Course Section */
+#courses {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#courses h2 {
+    font-size: 36px;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.course {
+    background: #fff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.course:hover {
+    transform: scale(1.05);
+}
+
+.course h3 {
+    font-size: 24px;
+}
+
+.course p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Video Section */
+#video-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 315px;
+    border: none;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #2980B9;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #21618C;
+}
+
+/* Motivation Section */
+#motivation {
+    background-color: #ECF0F1;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#motivation h2 {
+    font-size: 36px;
+}
+
+#motivation p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact form input, #contact form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact form button {
+    background-color: #2980B9;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+#contact form button:hover {
+    background-color: #21618C;
+}

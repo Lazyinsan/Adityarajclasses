@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya's Class 9th Learning Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Aditya's Learning Hub</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#motivation">Motivation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Your Journey to Excellence Begins Here</h2>
+            <p>Study smarter, not harder. Unlock the best resources for Class 9th students.</p>
+            <a href="#courses" class="cta-button">Explore Courses</a>
+        </div>
+    </section>
+
+    <section id="courses">
+        <h2>Our Top Courses</h2>
+        <div class="course-container">
+            <div class="course" onclick="showCourse('miq')">
+                <h3>Class 9th MIQ Series</h3>
+                <p>Master the Most Important Questions (MIQs) for your exams.</p>
+            </div>
+            <div class="course" onclick="showCourse('midterm')">
+                <h3>Class 9th Mid-Term Marathon</h3>
+                <p>Prepare for your mid-term exams with our focused content.</p>
+            </div>
+            <div class="course" onclick="showCourse('fullmarathon')">
+                <h3>Complete Marathon for Class 9th</h3>
+                <p>Comprehensive marathon covering all topics for the class 9 syllabus.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-section" style="display: none;">
+        <h2 id="video-title"></h2>
+        <div id="course-options" class="video-container"></div>
+        <div id="video-list" class="video-container"></div>
+        <button onclick="goBack()">Back to Courses</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:adityaraj040485@gmail.com">adityaraj040485@gmail.com</a></p>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Aditya's Class 9th Learning Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
