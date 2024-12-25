@@ -1,7 +1,7 @@
 const videos = {
     miq: {
         lecture: [
-            "yXtGc12IeeU", // MIQ Series Lecture 1
+            "https://youtu.be/Gdyq0vZ6xnw?feature=shared", // MIQ Series Lecture 1
             "sBspPc94rrk", // MIQ Series Lecture 2
             "bZV5Qko8sSE", // MIQ Series Lecture 3
         ],
